@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "deploy": "heroku builds:create -a instajob-backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^1.5.0",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "nodemon": "^2.0.15",
+    "uuid-v4": "^0.1.0"
+  }
+}
